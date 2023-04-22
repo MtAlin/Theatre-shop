@@ -1,0 +1,496 @@
+.carousel-background {
+  background-color: rgb(236 231 255);
+  height: 100vh;
+}
+
+/* responsive for 325 + screen */
+
+@media only screen and (min-width: 325px) {
+  /* carousel */
+  .carousel-row {
+    height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .carousel-col-9 {
+    height: 80vh;
+  }
+
+  .carousel-col-3 {
+    display: none;
+  }
+  /* carouselCard */
+  .carouselCard-container {
+    width: 95%;
+    margin: auto;
+    height: 80vh;
+  }
+
+  .carouselCard_btn {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid grey;
+    color: black;
+  }
+  .carouselCard_btn:hover {
+    transition: ease-in-out 0.4s;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: black;
+  }
+  .carouselCard-row {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    height: 85%;
+    width: 90%;
+    margin: auto;
+  }
+  .carouselCard-col-8 {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .carouselCard-col-4 {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .carouselCard-col-4 h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .carouselCard-col-4 h6 {
+    font-size: 1rem;
+  }
+  .carouselCard-col-4 button {
+    font-size: 1rem;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600;
+    padding: 0.7rem;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .carouselCard-col-4:first-child {
+    text-align: center;
+  }
+  .carouselCard-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .slick-dots .slick-active a {
+    background-color: rgb(197, 193, 193);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    width: 40px;
+    justify-content: center;
+    height: 40px !important;
+  }
+  .slick-dots li {
+    width: 40px !important;
+    font-size: 30px;
+  }
+  .slick-dots {
+    bottom: rem !important;
+    position: relative !important;
+  }
+}
+/* responsive for 491 screen */
+@media only screen and (min-width: 491px) {
+  .carouselCard-col-4 button {
+    width: 15rem;
+    font-size: 1rem;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600;
+    padding: 0.7rem;
+    width: 50%;
+  }
+  .carouselCard-col-4 h1 {
+    font-size: 2.3rem;
+    font-weight: 600;
+  }
+  .carouselCard-col-4 h6 {
+    font-size: 1.5rem;
+  }
+  .carouselCard_btn {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid grey;
+    color: black;
+  }
+  .carouselCard_btn:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: black;
+  }
+}
+/* responsive for 768 screen */
+
+@media only screen and (min-width: 768px) {
+  /* carousel */
+  .carousel-row {
+    height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .carousel-col-9 {
+    height: 70vh;
+  }
+  .carousel-col-3 {
+    display: none;
+  }
+  /* carouselCard */
+  .carouselCard-container {
+    width: 95%;
+    margin: auto;
+    height: 80vh;
+  }
+
+  .carouselCard_btn {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  .carouselCard-row {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+  }
+  .carouselCard-col-8 {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .carouselCard-col-4 {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2rem;
+  }
+  .carouselCard-col-4 h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  .carouselCard-col-4 h6 {
+    font-size: 1.5rem;
+  }
+  .carouselCard-col-4 button {
+    width: 15rem;
+    font-size: 1rem;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600;
+    padding: 1rem;
+    width: 40%;
+    margin: right auto;
+  }
+  .carouselCard-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .slick-dots {
+    bottom: 3rem !important;
+    position: relative !important;
+  }
+}
+
+/* respomsove for 991 screen */
+@media only screen and (min-width: 991px) {
+  /* carousel */
+  .carousel-row {
+    height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .carousel-col-9 {
+    height: 70vh;
+  }
+  .carousel-col-3 {
+    display: block;
+    height: 10vh;
+    z-index: 1;
+    text-align: right;
+  }
+  .carousel-btn {
+    display: flex;
+    justify-content: end;
+    gap: 0.6rem;
+  }
+  /* carouselCard */
+  .carouselCard-container {
+    width: 95%;
+    margin: auto;
+    height: 80vh;
+  }
+
+  .carouselCard_btn {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  .carouselCard-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+  }
+  .carouselCard-col-8 {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .carouselCard-col-4 {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 1rem;
+    align-items: start;
+  }
+  .carouselCard-col-4 div:first-child {
+    text-align: left;
+  }
+  .carouselCard-col-4 h1 {
+    font-size: 2.3rem;
+    font-weight: 700;
+  }
+  .carouselCard-col-4 h6 {
+    font-size: 1.5rem;
+  }
+  .carouselCard-col-4 button {
+    width: 15rem;
+    font-size: 1rem;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600;
+    padding: 0.9rem;
+    margin: 0;
+  }
+  .carouselCard-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .slick-dots .slick-active a {
+    background-color: rgb(197, 193, 193);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    width: 40px;
+    justify-content: center;
+    height: 40px !important;
+  }
+  .slick-dots {
+    position: absolute !important;
+    top: 30% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none;
+    left: 95% !important;
+    width: 40px !important;
+    height: 130px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    font-size: x-large !important;
+  }
+  .slick-dots li {
+    width: 40px !important;
+    font-size: 30px;
+  }
+}
+
+/* responsive for 1024 + screen */
+@media only screen and (min-width: 1200px) {
+  /* carousel */
+  .carousel-row {
+    height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .carousel-col-9 {
+    height: 70vh;
+  }
+  .carousel-col-3 {
+    display: block;
+    height: 10vh;
+    z-index: 1;
+    text-align: right;
+  }
+  .carousel-btn {
+    display: flex;
+    justify-content: end;
+    gap: 0.6rem;
+  }
+  /* carouselCard */
+  .carouselCard-container {
+    width: 95%;
+    margin: auto;
+    height: 80vh;
+  }
+
+  .carouselCard_btn {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  .carouselCard-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+  }
+  .carouselCard-col-8 {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .carouselCard-col-4 {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 0;
+    align-items: start;
+  }
+  .carouselCard-col-4 h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .carouselCard-col-4 h6 {
+    font-size: 2rem;
+  }
+  .carouselCard-col-4 button {
+    width: 15rem;
+    font-size: 1rem;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600;
+    padding: 1rem;
+    margin: 0;
+  }
+  .carouselCard-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .slick-dots .slick-active a {
+    background-color: rgb(197, 193, 193);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    width: 40px;
+    justify-content: center;
+    height: 40px !important;
+  }
+  .slick-dots {
+    position: absolute !important;
+    top: 30% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none;
+    left: 95% !important;
+    width: 40px !important;
+    height: 130px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    font-size: x-large !important;
+  }
+  .slick-dots li {
+    width: 40px !important;
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .carouselCard-col-4 h1 {
+    font-size: 5rem;
+    font-weight: 700;
+  }
+  .carousel-row {
+    height: 100vh;
+    width: 83%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}

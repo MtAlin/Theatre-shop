@@ -1,0 +1,119 @@
+.collection-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 25rem;
+  position: relative;
+  border-radius: 20px;
+}
+.collection-winter {
+  position: absolute;
+  top: 70px;
+  left: -72px;
+  border-radius: 0px 20px 0px 20px;
+  padding: 10px;
+  width: 12rem;
+  transform: rotate(270deg);
+  font-size: 20px;
+  font-weight: 900;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  background-color: rgb(16, 1, 44);
+  border: none;
+}
+.collection-spring {
+  position: absolute;
+  right: -1px;
+  border-radius: 20px 0px 20px 0px;
+  padding: 10px;
+  bottom: -1px;
+  width: 12rem;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  background-color: rgb(16, 1, 44);
+  border: none;
+}
+.collection-autumm {
+  position: absolute;
+  right: -72px;
+  border-radius: 20px 20px 0px 0px;
+  padding: 10px;
+  bottom: 71px;
+  width: 12rem;
+  transform: rotate(270deg);
+  font-size: 20px;
+  font-weight: 900;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  background-color: rgb(16, 1, 44);
+  border: none;
+}
+.collection-summer {
+  position: absolute;
+  right: -1px;
+  border-radius: 0px 20px 0px 20px;
+  padding: 10px;
+  top: 0px;
+  width: 12rem;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  background-color: rgb(16, 1, 44);
+  border: none;
+}
+.blackSales-img {
+  background-image: url("https://cf.shopee.ph/file/08186a91f9a33ea08ab1b35e7dacd414");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25rem;
+  position: relative;
+}
+.blackSales .align {
+  display: flex;
+  align-items: center;
+}
+.blackSales a {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  justify-content: space-around;
+  border-radius: 20px;
+  padding: 10px;
+}
+.blackSales p:nth-child(2) {
+  color: rgb(45, 137, 9);
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+}
+.blackSales div:nth-child(1) {
+  background-color: rgb(197, 219, 204);
+}
+
+@media only screen and (min-width: 325px) {
+  .blackSales a {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .blackSales button a {
+    color: black;
+    padding: auto;
+  }
+}
+@media only screen and (min-width: 455px) {
+  .blackSales a {
+    margin: 0;
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .blackSales a {
+    margin: 0;
+    width: 45%;
+  }
+}

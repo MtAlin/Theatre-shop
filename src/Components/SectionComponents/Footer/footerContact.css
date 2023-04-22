@@ -1,0 +1,13 @@
+.container-footer {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(236 231 255);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.footer-row {
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-around;
+  gap: 2rem;
+}

@@ -1,0 +1,16 @@
+.about img {
+  width: 100%;
+  border-radius: 30px;
+  height: 25rem;
+}
+.about h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.about p {
+  padding-top: 20px;
+}
+.about h6 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
